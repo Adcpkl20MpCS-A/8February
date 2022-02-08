@@ -1,0 +1,7 @@
+//To convert kilometers into centimeters
+km=int(input('Enter the distance between two villages in kilometers is:'))
+cm=km*100000
+Print('Distance between two villages in centimeters is:')
+Output:-
+Enter the distance between two villages in kilometers:250
+Distance between two villages in centimeters:25000000
