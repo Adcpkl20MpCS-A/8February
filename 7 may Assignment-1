@@ -1,0 +1,26 @@
+Write a program to store no for odd keys and yes for even numbers and display them.
+Program:-
+n=int(input())
+l=[]
+d={}
+for i in range(n):
+    x=int(input())
+    l.append(x)
+j=1
+for i in l:
+    if i%2==0:
+        print('yes')
+    else:
+        print('no')
+Output:-
+5
+1
+2
+4
+6
+9
+no
+yes
+yes 
+yes
+no  
